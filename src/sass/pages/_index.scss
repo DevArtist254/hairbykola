@@ -1,0 +1,38 @@
+.main {
+ width: 100%;
+
+ //main content on desktop row with 50 50 flex
+ &__cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+
+  &--text {
+   width: 50%;
+   height: 100%;
+
+   padding-left: 6rem;
+  }
+  &--image {
+   width: 50%;
+   height: 100%;
+   background-color: grey;
+  }
+ }
+}
+
+.pri-textBox {
+ width: 592px;
+ height: 320px;
+ margin-bottom: 3rem;
+
+ background: #d9d9d9;
+}
+
+.pri-btn {
+ width: 270px;
+ height: 86px;
+
+ background: #d9d9d9;
+}
