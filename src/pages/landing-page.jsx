@@ -67,6 +67,12 @@ export default function LandingPage() {
      </div>
     </div>
    </div>
+   <div className="main__comments">
+    <div className="main__comments--textBox">
+     <div className="main__comments--comment"></div>
+     <div className="main__comments--title"></div>
+    </div>
+   </div>
   </div>
  )
 }
