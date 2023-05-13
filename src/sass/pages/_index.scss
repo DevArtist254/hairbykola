@@ -3,6 +3,7 @@
 
  //main content on desktop row with 50 50 flex
  &__cont {
+  background-color: #a6603a;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -12,13 +13,17 @@
   &--text {
    width: 45%;
    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: end;
 
-   padding-left: 6%;
+   padding-left: 9rem;
   }
   &--image {
    width: 45%;
    height: 100%;
-   background-color: grey;
+   background-image: grey;
   }
  }
 
@@ -109,6 +114,85 @@
 
   width: 100%;
   height: 100vh;
+
+  &--textBox {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+
+   width: 80%;
+   height: 90%;
+  }
+
+  &--comment {
+   width: 100%;
+   height: 75%;
+
+   background-color: #d9d9d9;
+  }
+
+  &--title {
+   width: 45%;
+   height: 20%;
+
+   background-color: #d9d9d9;
+  }
+ }
+
+ &__contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+
+  &--cta,
+  &--address {
+   width: 50%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+
+   padding-left: 9rem;
+  }
+ }
+}
+
+.contacts {
+ &__title {
+  width: 315px;
+  height: 57px;
+
+  background-color: #d9d9d9;
+  margin-bottom: 6rem;
+ }
+
+ &__cta {
+  width: 601px;
+  height: 380px;
+
+  background-color: #d9d9d9;
+ }
+
+ &__address {
+  margin-bottom: 1.2rem;
+  &--title {
+   width: 200px;
+   height: 31px;
+
+   background-color: #d9d9d9;
+   margin-bottom: 0.6rem;
+  }
+
+  &--text {
+   width: 422px;
+   height: 19px;
+
+   background-color: #d9d9d9;
+  }
  }
 }
 
@@ -201,6 +285,7 @@
  height: 86px;
 
  background: #d9d9d9;
+ margin-bottom: 8rem;
 }
 
 .tbHeader {

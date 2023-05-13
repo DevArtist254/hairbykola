@@ -43,6 +43,7 @@ html {
   width: 100%;
 }
 .main__cont {
+  background-color: #a6603a;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -52,7 +53,11 @@ html {
 .main__cont--text {
   width: 45%;
   height: 100%;
-  padding-left: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  padding-left: 9rem;
 }
 .main__cont--image {
   width: 45%;
@@ -130,6 +135,66 @@ html {
   width: 100%;
   height: 100vh;
 }
+.main__comments--textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 90%;
+}
+.main__comments--comment {
+  width: 100%;
+  height: 75%;
+  background-color: #d9d9d9;
+}
+.main__comments--title {
+  width: 45%;
+  height: 20%;
+  background-color: #d9d9d9;
+}
+.main__contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+}
+.main__contacts--cta, .main__contacts--address {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 9rem;
+}
+
+.contacts__title {
+  width: 315px;
+  height: 57px;
+  background-color: #d9d9d9;
+  margin-bottom: 6rem;
+}
+.contacts__cta {
+  width: 601px;
+  height: 380px;
+  background-color: #d9d9d9;
+}
+.contacts__address {
+  margin-bottom: 1.2rem;
+}
+.contacts__address--title {
+  width: 200px;
+  height: 31px;
+  background-color: #d9d9d9;
+  margin-bottom: 0.6rem;
+}
+.contacts__address--text {
+  width: 422px;
+  height: 19px;
+  background-color: #d9d9d9;
+}
 
 .card-sec {
   width: 80%;
@@ -202,6 +267,7 @@ html {
   width: 270px;
   height: 86px;
   background: #d9d9d9;
+  margin-bottom: 8rem;
 }
 
 .tbHeader {
