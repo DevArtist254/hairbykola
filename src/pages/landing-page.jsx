@@ -4,15 +4,16 @@ import card1 from "../assests/images/assest-2(1).png"
 import card2 from "../assests/images/assest-3.png"
 import card3 from "../assests/images/assest-4.png"
 import cta from "../assests/images/assest-8.png"
+import hairVideo from "../assests/Video/Hair-by-kola.mp4"
 
 export default function LandingPage() {
  return (
   <div className="main">
    <div className="main__cont">
     <div className="main__cont--text">
-     <div className="pri-textBox head-main white">
-      Organic products made with love.That's what you get from us.
-     </div>
+     <h1 className="pri-textBox head-main white">
+      Hair products made with love.That's what you get from us.
+     </h1>
      <button className="pri-btn">Shop now</button>
     </div>
     <img className="main__cont--image" src={intro1} alt="intro" />
@@ -63,27 +64,29 @@ export default function LandingPage() {
    </div>
    <div className="main__fav">
     <div className="main__fav--header">
-     <div className="mfHeader head-main">Viridian Castle in the News</div>
+     <div className="mfHeader head-main  dark">Viridian Castle in the News</div>
     </div>
     <div className="main__fav--cards">
      <div className="card-sec">
       <img src={card1} alt="card1" className="card-sec__img" />
       <div className="card-sec__textBox">
-       <div className="card-sec__textBox--text p-mid">
+       <div className="card-sec__textBox--text p-mid dark">
         News write-ups offer a great way to let clients know about new products
         and services, events, awards, and morel
        </div>
-       <div className="card-sec__textBox--link card-header">Summer Promo</div>
+       <div className="card-sec__textBox--link card-header dark">
+        Summer Promo
+       </div>
       </div>
      </div>
      <div className="card-sec">
       <img src={card2} alt="card2" className="card-sec__img" />
       <div className="card-sec__textBox">
-       <div className="card-sec__textBox--text p-mid">
+       <div className="card-sec__textBox--text p-mid dark">
         News write-ups offer a great way to let clients know about new products
         and services, events, awards, and morel.
        </div>
-       <div className="card-sec__textBox--link card-header">
+       <div className="card-sec__textBox--link card-header dark">
         CC's New Branch
        </div>
       </div>
@@ -91,11 +94,11 @@ export default function LandingPage() {
      <div className="card-sec">
       <img src={card3} alt="card2" className="card-sec__img" />
       <div className="card-sec__textBox">
-       <div className="card-sec__textBox--text p-mid">
+       <div className="card-sec__textBox--text p-mid dark">
         News write-ups offer a great way to let clients know about new products
         and services, events, awards, and morel
        </div>
-       <div className="card-sec__textBox--link card-header ">
+       <div className="card-sec__textBox--link card-header  dark">
         VCC's Green Award
        </div>
       </div>
@@ -103,30 +106,43 @@ export default function LandingPage() {
     </div>
    </div>
    <div className="main__comments">
+    <video
+     src={hairVideo}
+     autoPlay
+     muted
+     loop
+     className="main__comments--video"
+    />
     <div className="main__comments--textBox">
-     <div className="main__comments--comment">
+     <div className="main__comments--comment white text-center head-comment">
       I'm the biggest user of our products. I won't put anything harmful on my
       skin, so I can assure you that only the purest ingredients go into
       Viridian Castle.
      </div>
-     <div className="main__comments--title">- Cleo Smith, CEO</div>
+     <div className="main__comments--title head-main white text-center">
+      - Cleo Smith, CEO
+     </div>
     </div>
    </div>
    <div className="main__contacts">
     <div className="main__contacts--cta">
-     <div className="contacts__title">Get in Touch</div>
+     <div className="contacts__title dark head-main">Get in Touch</div>
      <img className="contacts__cta" src={cta} alt="cta" />
     </div>
     <div className="main__contacts--address">
      <div className="contacts__address">
-      <div className="contacts__address--title">Mailing Address</div>
-      <div className="contacts__address--text">
+      <div className="contacts__address--title dark p-mid ">
+       Mailing Address
+      </div>
+      <div className="contacts__address--text dark p-card ">
        123 Anywhere St., Any City, State, Country 12345
       </div>
      </div>
      <div className="contacts__address">
-      <div className="contacts__address--title">Email Address</div>
-      <div className="contacts__address--text">hello@reallygreatsite.com</div>
+      <div className="contacts__address--title dark p-mid ">Email Address</div>
+      <div className="contacts__address--text dark p-card ">
+       hello@reallygreatsite.com
+      </div>
      </div>
     </div>
    </div>
