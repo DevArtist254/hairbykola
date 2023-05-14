@@ -1,22 +1,27 @@
 import React from "react"
+import intro1 from "../assests/images/assest-1.png"
+import card1 from "../assests/images/assest-2(1).png"
+import card2 from "../assests/images/assest-3.png"
+import card3 from "../assests/images/assest-4.png"
+import cta from "../assests/images/assest-8.png"
 
 export default function LandingPage() {
  return (
   <div className="main">
    <div className="main__cont">
     <div className="main__cont--text">
-     <div className="pri-textBox">
+     <div className="pri-textBox head-main white">
       Organic products made with love.That's what you get from us.
      </div>
      <button className="pri-btn">Shop now</button>
     </div>
-    <div className="main__cont--image"></div>
+    <img className="main__cont--image" src={intro1} alt="intro" />
    </div>
    <div className="main__about">
     <div className="main__about--image"></div>
     <div className="main__about--textBox">
-     <div className="tbHeader">Our Brand Story</div>
-     <div className="tbText">
+     <div className="tbHeader dark head-main text-center">Our Brand Story</div>
+     <div className="tbText p-mid text-center dark">
       Viridian Castle Co. was founded by Cleo Smith in 2015. The company is
       dedicated to producing high-quality products that you will surely love.
      </div>
@@ -24,26 +29,32 @@ export default function LandingPage() {
    </div>
    <div className="main__shop">
     <div className="main__shop--shopContent">
-     <div className="main__shop--header">Organic Selection</div>
+     <div className="main__shop--header head-main white">Organic Selection</div>
      <div className="main__shop--cards">
       <div className="card-main">
-       <div className="card-main__img"></div>
-       <div className="card-main__header">Essential Oils</div>
-       <div className="card-main__text">
+       <img className="card-main__img" src={card1} alt="card-img" />
+       <div className="card-main__header white text-center card-header">
+        Essential Oils
+       </div>
+       <div className="card-main__text white text-center p-card">
         Relax and unwind with our wide variety of essential oils
        </div>
       </div>
       <div className="card-main">
-       <div className="card-main__img"></div>
-       <div className="card-main__header">Organic Soaps</div>
-       <div className="card-main__text">
+       <img className="card-main__img" src={card2} alt="card-img" />
+       <div className="card-main__header white text-center card-header">
+        Organic Soaps
+       </div>
+       <div className="card-main__text white text-center p-card p-card">
         Keep your skin clean and healthy. Hypoallergenic & vegan.
        </div>
       </div>
       <div className="card-main">
-       <div className="card-main__img"></div>
-       <div className="card-main__header">Soy Candles</div>
-       <div className="card-main__text">
+       <img className="card-main__img" src={card3} alt="card-img" />
+       <div className="card-main__header white text-center card-header">
+        Soy Candles
+       </div>
+       <div className="card-main__text white text-center p-card">
         Let our line of scented soy candles improve your mood.
        </div>
       </div>
@@ -52,37 +63,41 @@ export default function LandingPage() {
    </div>
    <div className="main__fav">
     <div className="main__fav--header">
-     <div className="mfHeader">Viridian Castle in the News</div>
+     <div className="mfHeader head-main">Viridian Castle in the News</div>
     </div>
     <div className="main__fav--cards">
      <div className="card-sec">
-      <div className="card-sec__img"></div>
+      <img src={card1} alt="card1" className="card-sec__img" />
       <div className="card-sec__textBox">
-       <div className="card-sec__textBox--text">
+       <div className="card-sec__textBox--text p-mid">
         News write-ups offer a great way to let clients know about new products
         and services, events, awards, and morel
        </div>
-       <div className="card-sec__textBox--link">Summer Promo</div>
+       <div className="card-sec__textBox--link card-header">Summer Promo</div>
       </div>
      </div>
      <div className="card-sec">
-      <div className="card-sec__img"></div>
+      <img src={card2} alt="card2" className="card-sec__img" />
       <div className="card-sec__textBox">
-       <div className="card-sec__textBox--text">
+       <div className="card-sec__textBox--text p-mid">
         News write-ups offer a great way to let clients know about new products
         and services, events, awards, and morel.
        </div>
-       <div className="card-sec__textBox--link">CC's New Branch</div>
+       <div className="card-sec__textBox--link card-header">
+        CC's New Branch
+       </div>
       </div>
      </div>
      <div className="card-sec">
-      <div className="card-sec__img"></div>
+      <img src={card3} alt="card2" className="card-sec__img" />
       <div className="card-sec__textBox">
-       <div className="card-sec__textBox--text">
+       <div className="card-sec__textBox--text p-mid">
         News write-ups offer a great way to let clients know about new products
         and services, events, awards, and morel
        </div>
-       <div className="card-sec__textBox--link">VCC's Green Award</div>
+       <div className="card-sec__textBox--link card-header ">
+        VCC's Green Award
+       </div>
       </div>
      </div>
     </div>
@@ -100,7 +115,7 @@ export default function LandingPage() {
    <div className="main__contacts">
     <div className="main__contacts--cta">
      <div className="contacts__title">Get in Touch</div>
-     <div className="contacts__cta"></div>
+     <img className="contacts__cta" src={cta} alt="cta" />
     </div>
     <div className="main__contacts--address">
      <div className="contacts__address">
