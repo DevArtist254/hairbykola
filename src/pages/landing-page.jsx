@@ -22,39 +22,39 @@ export default function LandingPage() {
     <div className="main__about--image"></div>
     <div className="main__about--textBox">
      <div className="tbHeader dark head-main text-center">Our Brand Story</div>
-     <div className="tbText p-mid text-center dark">
+     <p className="tbText p-mid text-center dark">
       Viridian Castle Co. was founded by Cleo Smith in 2015. The company is
       dedicated to producing high-quality products that you will surely love.
-     </div>
+     </p>
     </div>
    </div>
    <div className="main__shop">
     <div className="main__shop--shopContent">
-     <div className="main__shop--header head-main white">Organic Selection</div>
+     <h1 className="main__shop--header head-main white">Organic Selection</h1>
      <div className="main__shop--cards">
       <div className="card-main">
        <img className="card-main__img" src={card1} alt="card-img" />
-       <div className="card-main__header white text-center card-header">
+       <h2 className="card-main__header white text-center card-header">
         Essential Oils
-       </div>
-       <div className="card-main__text white text-center p-card">
+       </h2>
+       <p className="card-main__text white text-center p-card">
         Relax and unwind with our wide variety of essential oils
-       </div>
+       </p>
       </div>
       <div className="card-main">
        <img className="card-main__img" src={card2} alt="card-img" />
-       <div className="card-main__header white text-center card-header">
+       <h2 className="card-main__header white text-center card-header">
         Organic Soaps
-       </div>
-       <div className="card-main__text white text-center p-card p-card">
+       </h2>
+       <p className="card-main__text white text-center p-card p-card">
         Keep your skin clean and healthy. Hypoallergenic & vegan.
-       </div>
+       </p>
       </div>
       <div className="card-main">
        <img className="card-main__img" src={card3} alt="card-img" />
-       <div className="card-main__header white text-center card-header">
+       <h2 className="card-main__header white text-center card-header">
         Soy Candles
-       </div>
+       </h2>
        <div className="card-main__text white text-center p-card">
         Let our line of scented soy candles improve your mood.
        </div>
@@ -64,43 +64,43 @@ export default function LandingPage() {
    </div>
    <div className="main__fav">
     <div className="main__fav--header">
-     <div className="mfHeader head-main  dark">Viridian Castle in the News</div>
+     <h1 className="mfHeader head-main  dark">Viridian Castle in the News</h1>
     </div>
     <div className="main__fav--cards">
      <div className="card-sec">
       <img src={card1} alt="card1" className="card-sec__img" />
       <div className="card-sec__textBox">
-       <div className="card-sec__textBox--text p-mid dark">
+       <p className="card-sec__textBox--text p-mid dark">
         News write-ups offer a great way to let clients know about new products
         and services, events, awards, and morel
-       </div>
-       <div className="card-sec__textBox--link card-header dark">
+       </p>
+       <a href="/" className="card-sec__textBox--link card-header dark">
         Summer Promo
-       </div>
+       </a>
       </div>
      </div>
      <div className="card-sec">
       <img src={card2} alt="card2" className="card-sec__img" />
       <div className="card-sec__textBox">
-       <div className="card-sec__textBox--text p-mid dark">
+       <p className="card-sec__textBox--text p-mid dark">
         News write-ups offer a great way to let clients know about new products
         and services, events, awards, and morel.
-       </div>
-       <div className="card-sec__textBox--link card-header dark">
+       </p>
+       <a href="/" className="card-sec__textBox--link card-header dark">
         CC's New Branch
-       </div>
+       </a>
       </div>
      </div>
      <div className="card-sec">
       <img src={card3} alt="card2" className="card-sec__img" />
       <div className="card-sec__textBox">
-       <div className="card-sec__textBox--text p-mid dark">
+       <p className="card-sec__textBox--text p-mid dark">
         News write-ups offer a great way to let clients know about new products
         and services, events, awards, and morel
-       </div>
-       <div className="card-sec__textBox--link card-header  dark">
+       </p>
+       <a href="/" className="card-sec__textBox--link card-header  dark">
         VCC's Green Award
-       </div>
+       </a>
       </div>
      </div>
     </div>
@@ -131,18 +131,16 @@ export default function LandingPage() {
     </div>
     <div className="main__contacts--address">
      <div className="contacts__address">
-      <div className="contacts__address--title dark p-mid ">
-       Mailing Address
-      </div>
-      <div className="contacts__address--text dark p-card ">
+      <h3 className="contacts__address--title dark p-mid ">Mailing Address</h3>
+      <address className="contacts__address--text dark p-card ">
        123 Anywhere St., Any City, State, Country 12345
-      </div>
+      </address>
      </div>
      <div className="contacts__address">
-      <div className="contacts__address--title dark p-mid ">Email Address</div>
-      <div className="contacts__address--text dark p-card ">
+      <h3 className="contacts__address--title dark p-mid ">Email Address</h3>
+      <address className="contacts__address--text dark p-card ">
        hello@reallygreatsite.com
-      </div>
+      </address>
      </div>
     </div>
    </div>

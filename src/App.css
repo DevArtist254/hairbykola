@@ -161,7 +161,7 @@ html {
 .main__comments--textBox {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 80%;
   height: 90%;
@@ -238,7 +238,6 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 }
 .card-main__img {
   width: 390px;
@@ -300,6 +299,7 @@ html {
   font-weight: 400;
   font-size: 60px;
   text-transform: uppercase;
+  margin-bottom: 4rem;
 }
 
 .p-mid {
