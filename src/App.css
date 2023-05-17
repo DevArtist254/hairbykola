@@ -86,7 +86,7 @@ html {
 .main__about--image {
   width: 50%;
   height: 100%;
-  background-image: url("./assests/images/assest-2.png");
+  background-image: url("./assests/images/hair-1.jpg");
   background-size: 120% 100%;
   background-repeat: no-repeat;
 }
@@ -275,6 +275,14 @@ html {
 .tbText {
   width: 592px;
   height: 320px;
+}
+
+#error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .head-main {
