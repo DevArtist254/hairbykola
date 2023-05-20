@@ -1,9 +1,9 @@
 import React from "react"
 import intro1 from "../assests/images/hair-2.jpg"
-import card1 from "../assests/images/assest-2(1).png"
-import card2 from "../assests/images/assest-3.png"
+import card1 from "../assests/images/hair-4.png"
+import card2 from "../assests/images/hair-5.png"
 import card3 from "../assests/images/hair-3.jpg"
-import cta from "../assests/images/assest-8.png"
+import cta from "../assests/images/hair-6.png"
 import hairVideo from "../assests/Video/Hair-by-kola.mp4"
 
 export default function LandingPage() {
